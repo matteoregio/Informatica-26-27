@@ -39,6 +39,10 @@
 			}
 			?>
         </table>
+    <?php
+    $nome = $_GET['numero'];
+
+    ?>
     </body>
 </html>
 
