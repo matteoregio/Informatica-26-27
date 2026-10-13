@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Questa parte aggiunge stile usando HTML semantico a costo zero -->
+	<!-- Usando header, main e footer HTML, viene centrato il layout automaticamente -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
+	>
+	
+	<title>Pizzeria</title>
+</head>
+<body>
+<main>
+
+	<h1>Benvenuti nella Pizzeria Odio Bussi</h1>
+
+	<form action="" method="post">
+		<p>
+			<label for="sistemazione">Tipo di sistemazione</label>
+			<select id="sistemazione" name="sistemazione">
+				<option value="fuori">Spazio esterno</option>
+				<option value="dentro">Spazio interno</option>
+			</select>
+		</p>
+		<p>
+			<label for="pizza">Pizza:</label>
+			<select id="pizza" name="pizza">
+				<option value="marghe">Margherita</option>
+				<option value="dia">Diavola</option>
+				<option value="mari">Marinara</option>
+				<option value="usa">Americana</option>
+			</select>
+		</p>
+		<fieldset>
+			<label>Eventuali aggiunte</label>
+			
+			<label for="cotto">
+				<input type="checkbox" id="cotto" name="check">Prosciutto cotto
+			</label>
+			
+			<label for="crudo">
+				<input type="checkbox" id="crudo" name="check">Prosciutto crudo
+			</label>
+			
+			<label for="bufala">
+				<input type="checkbox" id="bufala" name="check">Bufala
+			</label>
+		</fieldset>
+		<p>
+			<label>Seleziona il tipo di impasto:</label>
+			<input type="radio" id="senza" name="senza">
+			<label for="senza">Senza glutine</label>
+			<br>
+			<input type="radio" id="normale" name="senza">
+			<label for="normale">Normale</label>
+		</p>
+		
+		<button type="submit">Prenota</button>
+	</form>
+</main>
+</body>
+</html>
