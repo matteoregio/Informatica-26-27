@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7281492b-a939-4fdf-8837-3ebc55b2a0b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/controllo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/pizzeria.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/home-spedizione.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/pizzeria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/spedizione.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primo-progetto/www/public/corsoDiLingua.html" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/www/public/corsoDiLingua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primo-progetto/www/public/corsoDiLingua.php" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/www/public/corsoDiLingua.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primo-progetto/www/public/parcheggio.php" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/www/public/parcheggio.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="PHP File" />
         <option value="HTML File" />
+        <option value="PHP File" />
       </list>
     </option>
   </component>
@@ -70,7 +69,7 @@
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -109,7 +108,12 @@
       <workItem from="1790671951940" duration="3395000" />
       <workItem from="1791623118195" duration="2630000" />
       <workItem from="1791879027932" duration="2160000" />
-      <workItem from="1791881554373" duration="3194000" />
+      <workItem from="1791881554373" duration="3482000" />
+      <workItem from="1792228116371" duration="1948000" />
+      <workItem from="1792483799176" duration="3348000" />
+      <workItem from="1792489542473" duration="44000" />
+      <workItem from="1792834155427" duration="643000" />
+      <workItem from="1793092165841" duration="4914000" />
     </task>
     <servers />
   </component>

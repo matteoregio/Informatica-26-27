@@ -22,11 +22,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Controllo campi vuoti
     if(empty($nome) || empty($ore)){
-        echo "<p style='color:red'>Errore, compila tutti i campi</p>";
+        echo "<p>Errore, compila tutti i campi</p>";
     }
     // Controllo che il veicolo sia valido
     elseif($veicolo != "Automobile" && $veicolo != "Motocicletta"){
-        echo "<p style='color:red'>Errore, tipologia di veicolo non valida</p>";
+        echo "<p>Errore, tipologia di veicolo non valida</p>";
     }
     else {
         // Tariffa in base al veicolo
