@@ -8,6 +8,6 @@
     <title>Esempio</title>
 </head>
 <body>
-    <h1>Ciao <?= $nome ?></h1>
+    <h1>Ciao <?= $nome ?> </h1>
 </body>
 </html>
