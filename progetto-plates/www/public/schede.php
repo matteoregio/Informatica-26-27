@@ -6,15 +6,11 @@ use League\Plates\Engine;
 
 $template = new Engine('../templates', 'tpl');
 
-$persone = [
-    'Mario',
-    'Anna',
-    'Giulia'
-];
+$persone = \Model\PeopleRepository::getPeople();
 
 echo $template->render('schede',
     [
-        'titolo' => 'Pietre d\'inciampo',
+        'titolo' => 'Informatici famosi',
         'persone' => $persone
     ]
 );
